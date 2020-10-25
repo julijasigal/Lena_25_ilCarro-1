@@ -1,0 +1,4 @@
+20:59:54.322 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUp
+20:59:59.344 [main] INFO  com.ilcarro.qa.tests.TestBase - stop test testSignUp
+20:59:59.360 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test loginRegisteredUserPositiveTest
+21:00:04.792 [main] INFO  com.ilcarro.qa.tests.TestBase - stop test loginRegisteredUserPositiveTest
