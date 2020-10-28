@@ -1,0 +1,10 @@
+18:33:35.678 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromDataProvider with data: [fName, lname, lname@gmail+1.com, 1Qaaaaaaa]
+18:33:49.918 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUpFromDataProvider
+18:33:49.919 [main] INFO  com.ilcarro.qa.tests.TestBase - ======================================================================
+18:33:49.920 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromDataProvider with data: [aa, FF, 1111+1@ss.com, lkjhgfd2Q]
+18:34:03.609 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUpFromDataProvider
+18:34:03.609 [main] INFO  com.ilcarro.qa.tests.TestBase - ======================================================================
+18:34:03.611 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromDataProvider with data: [11, 66, 11_11+1@ss.com, lkjhgfd2Q]
+18:34:07.483 [main] INFO  com.ilcarro.qa.tests.TestBase - true
+18:34:07.484 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUpFromDataProvider
+18:34:07.484 [main] INFO  com.ilcarro.qa.tests.TestBase - ======================================================================

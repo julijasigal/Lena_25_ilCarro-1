@@ -1,0 +1,4 @@
+11:47:57.650 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUp
+11:48:01.883 [main] INFO  com.ilcarro.qa.tests.TestBase - true
+11:48:01.887 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUp
+11:48:01.888 [main] INFO  com.ilcarro.qa.tests.TestBase - ======================================================================
