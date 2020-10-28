@@ -4,6 +4,7 @@ import com.ilcarro.qa.framework.ApplicationManager;
 import org.openqa.selenium.remote.BrowserType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.ITestNGListener;
 import org.testng.annotations.*;
 
 import java.lang.reflect.Method;
