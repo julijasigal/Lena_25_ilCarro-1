@@ -3,6 +3,7 @@ package com.ilcarro.qa.tests;
 import com.ilcarro.qa.model.Car;
 import org.openqa.selenium.By;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class AddCarTests extends TestBase {
@@ -17,13 +18,14 @@ public class AddCarTests extends TestBase {
 
     @Test
     public void testFormLetTheCarWork() throws InterruptedException {
-        app.header().click(By.cssSelector(".let-carwork-style_let_car__location__30BIh"));
+        app.header().addCar();
+        //app.header().click(By.cssSelector(".let-carwork-style_let_car__location__30BIh"));
 
         app.car().fillAddCarForm(new Car()
                 .setCountry("Israel")
                 .setAddress("Hrtzel 1")
                 .setDistance("500")
-                .setSerialNumber("876-111-211")
+                .setSerialNumber("876-12-311")
                 .setBrand("Honda")
                 .setModel("Civic")
                 .setYear("2015")
@@ -41,6 +43,15 @@ public class AddCarTests extends TestBase {
                 .setFeature("new one, non smoking, navigator, baby chair")
                 .setPrice("55"));
         app.car().submitForm();
+    }
+
+ @Test(dataProvider = "validCarFromCSV", dataProviderClass = DataProviders.class)
+    public void testFormLetTheCarWorkFromDataProvider(Car car) throws InterruptedException {
+        app.header().addCar();
+        //app.header().click(By.cssSelector(".let-carwork-style_let_car__location__30BIh"));
+        app.car().fillAddCarForm(car);
+        app.car().submitForm();
+
     }
 
 }

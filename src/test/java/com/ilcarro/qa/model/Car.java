@@ -201,4 +201,15 @@ public class Car {
     public String getPrice() {
         return price;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "serialNumber='" + serialNumber + '\'' +
+                ", brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", year='" + year + '\'' +
+                ", price='" + price + '\'' +
+                '}';
+    }
 }
